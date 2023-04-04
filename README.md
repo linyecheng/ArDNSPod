@@ -74,6 +74,9 @@ arDdnsCheck "test.org" "subdomain"
 2021-06-06
 - 支持Local-WAN模式：Local-WAN是指路由器作为一个大局域网的子网，某些场景下需要获取当前路由器的WAN IP，这些WAN IP一般仍然是一个子网IP
 
+2023-04-04
+- 存在IPv6可能有多个IP的情况，此处的IP获取方式进行了修改
+
 # Credit
 
 Original: anrip
